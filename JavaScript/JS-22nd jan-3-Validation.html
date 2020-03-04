@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+
+<script>  
+ 	var num1,num2;
+
+	function fn1()
+		{ num1=document.getElementById("n1").value;
+		  	if( num1=="")
+			{
+			     document.getElementById("alert1").innerHTML="Enter a valid number !"
+				}
+		}
+
+	function fn2()
+		{ num2=document.getElementById("n2").value;
+			if( num2=="")
+			{
+			     document.getElementById("alert2").innerHTML="Enter a valid number !"
+			}
+		}
+	
+	function fn3()
+		{ var sum=+num1 + +num2;
+		   window.alert( sum );
+		}
+</script>
+	
+
+</head>
+
+<body>
+	<form>
+		<table>
+			<tr>
+				<td>First Number</td>
+				<td><input type="number" id="n1" onfocusout="fn1()"></td>
+				<td><p id="alert1"></td>
+			</tr>
+			<tr>
+				<td>Second Number</td>
+				<td><input type="number" id='n2" onfocusout="fn2()"></td>
+				<td><p id="alert2"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add" onclick="fn3()"></td>
+			</tr>
+			
+		</table>
+	</form>	
+
+</body>
+
+
+
+</html>

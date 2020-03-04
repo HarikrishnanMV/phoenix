@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Length of string</title>
+
+</head>
+
+<body>
+
+<script>
+ var str;
+
+function myFunction() 
+{
+ 
+  var n = document.form1.str.value;
+  document.getElementById("demo").innerHTML =n.length ;
+}
+</script>
+
+
+<form name="form1" style="text-align:center">
+<b>Enter the string :</b> <br><br>
+<input type="text" name="str"><br><br>
+<input type="button" value="Length" onclick=myFunction()>
+</form>
+
+<b><p style="color:red" align="center" id="demo"> </p></b>
+</body>
+
+</html>

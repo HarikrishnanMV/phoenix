@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>String Manipulation</title>
+		
+	</head>
+
+
+
+<body>
+		<p id="word1"></p>
+		<p id="word2"></p>
+		<p id="word3"></p>
+		<p id="word4"></p>
+		<p id="word5"></p>
+		<script>
+			function fn()
+	{
+		var str=document.getElementById("inp").value;
+		var pos=str.indexOf("your");
+		window.alert("position of the word 'your' :" +pos);
+
+		var letter=str.charAt(4);
+		window.alert("the 4th letter is:" +letter);
+	       
+
+	}
+								
+
+	
+			var str ="Alice's adventures in wonderland! ";
+			document.getElementById("word1").innerHTML = str.length;
+
+			var pos= str.indexOf("won");
+			document.getElementById("word2").innerHTML=pos;
+			
+			var pos=str.lastIndexOf("v");
+			document.getElementById("word3").innerHTML=pos;
+	
+			var pos=str.search("wonderland");
+			document.getElementById("word4").innerHTML=pos;
+			
+			var sli=str.slice(8,18);
+			document.getElementById("word5").innerHTML=sli;
+
+		</script>	
+
+		<body>
+	<h1>STRINGS</h1>
+	<form>
+		<input type="text" placeholder="enter a text" id="inp";>
+		<input type="submit" value="enter" onclick=fn();>
+</form>
+</body>
+
+</body>
+	
+</html>
+
+
+<!--
+
+<!doctype html>
+
+<html>
+    <head>
+       <script>
+         function fn()
+	{
+		var str=document.getElementById("inp").value;
+		var pos=str.indexOf("your");
+		window.alert("position of the word 'your' :" +pos);
+
+		var letter=str.charAt(4);
+		window.alert("the 4th letter is:" +letter);
+	       
+
+	}
+      </script>
+    </head>
+<body>
+	<h1>STRINGS</h1>
+	<form>
+		<input type="text" placeholder="enter a text" id="inp";>
+		<input type="submit" value="enter" onclick=fn();>
+</form>
+</body>
+</html>
+-->

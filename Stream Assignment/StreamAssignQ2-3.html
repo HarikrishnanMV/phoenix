@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+
+<body>
+
+<p>Click on the button to sort the array!</p>
+
+<button onclick="myFunction()">Sort</button>
+
+<p id="demo"></p>
+
+<script>
+   var capitals = ["London", "Paris", "Budapest", "Vienna", "Rome", "Berlin"];
+   document.getElementById("demo").innerHTML = capitals;
+
+  function myFunction()
+{
+    capitals.sort();
+     document.getElementById("demo").innerHTML = capitals;
+}
+</script>
+
+</body>
+
+</html>
