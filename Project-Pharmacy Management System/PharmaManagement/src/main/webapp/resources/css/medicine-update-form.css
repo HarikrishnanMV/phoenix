@@ -1,0 +1,81 @@
+body
+{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.one
+{
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	margin-top: 125px;
+}
+
+a
+{
+	text-decoration: none;
+	color:white;
+	font-size:18px;
+}
+
+input[type=submit]
+{
+  	background-color:#0039e6;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width:40%;
+	margin-top: 25px;
+}
+.first
+{
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 0px;
+}
+
+
+.error
+{
+color:red;
+}
+
+input[type=text]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+
+}
+
+button:hover 
+{
+  opacity: 0.8;
+}

@@ -1,0 +1,57 @@
+body
+{
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.one
+{
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	margin-top: 125px;
+}
+
+a
+{
+	text-decoration: none;
+	font-size:18px;
+	font-family: "Times New Roman", Times, serif;
+	color:white;
+}
+
+
+button 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+
+}
+
+button:hover 
+{
+  opacity: 0.8;
+}
+
+.first
+{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 0px;
+}
