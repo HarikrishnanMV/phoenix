@@ -18,7 +18,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
   <url>http://maven.apache.org</url>
   
   <properties>
-  	<springframework.version>5.0.2.RELEASE</springframework.version>
+  	<springframework.version>5.2.20.RELEASE</springframework.version>
   </properties>
   
   <dependencies>
